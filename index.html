@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake</title>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" type="text/javascript" defer></script>
+</head>
+<body>
+
+    <div id="board"></div>
+        <div class="boardInfo">
+            <div>
+                Score: <div id="scoreBoard"></div>
+            </div>
+            <button id="start">Replay</button>
+
+            
+        </div>
+
+        <!--Personal try-->
+
+        <br> 
+        <div class="buttons">
+            <button class="move-buttons" onclick="directionEventTactil('ArrowUp')" id="up">⬆</button>
+            <button class="move-buttons" onclick="directionEventTactil('ArrowDown')" id="down">⬇</button>
+            <button class="move-buttons" onclick="directionEventTactil('ArrowLeft')" id="left">⬅</button>
+            <button class="move-buttons" onclick="directionEventTactil('ArrowRight')" id="right">➡</button>
+        </div>
+        <!--Personal try-->
+        <div id="gameOver">Game Over</div>
+    
+</body>
+</html>
